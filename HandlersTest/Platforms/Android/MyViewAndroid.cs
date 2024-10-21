@@ -41,7 +41,7 @@ public class MyViewAndroid : ConstraintLayout
         cs.ConstrainHeight(content.Id, 0);
 
         cs.Connect(content.Id, LayoutParams.Top, LayoutParams.ParentId, LayoutParams.Top, 20);
-        //cs.Connect(content.Id, LayoutParams.Bottom, LayoutParams.ParentId, LayoutParams.Bottom);
+        cs.Connect(content.Id, LayoutParams.Bottom, LayoutParams.ParentId, LayoutParams.Bottom);
 
         cs.Connect(content.Id, LayoutParams.Start, LayoutParams.ParentId, LayoutParams.Start,20);
         cs.Connect(content.Id, LayoutParams.End, LayoutParams.ParentId, LayoutParams.End,20);
